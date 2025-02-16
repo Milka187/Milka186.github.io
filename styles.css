@@ -56,6 +56,7 @@ main {
     background-color: white;
     border-radius: 5px;
     padding: 1rem;
+    overflow-wrap: break-word;
     margin-bottom: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
