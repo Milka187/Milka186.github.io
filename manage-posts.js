@@ -52,7 +52,7 @@ function displayPosts() {
         postElement.innerHTML = `
             <h2>${post.title}</h2>
             <div class="post-meta">
-                Posted on ${formatDate(post.creationTime)} by ${post.author}
+                Опубликовано ${formatDate(post.creationTime)} автор: ${post.author}
             </div>
             <div>${post.content}</div>
             <button class="edit-btn" onclick="editPost(${index})">Редактировать</button>
