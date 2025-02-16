@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Вход в учётную запись</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="editor.html">Создание записей</a></li>
+            <li><a href="manage-posts.html">Управление записями</a></li>
+            <li><a href="register.html" class="auth-btn">Регистрация</a></li>
+            <li><a href="login.html" class="auth-btn">Вход</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form id="loginForm" class="auth-form">
+            <h2>Войдите в свой аккаунт</h2>
+            <div class="form-group">
+                <label for="username">Имя:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Войти</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2025 АПОУ ВО ВКСиИТ
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
+
