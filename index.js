@@ -23,7 +23,7 @@ function displayPosts() {
             <div class="post-meta">
                 Опубликовано ${formatDate(post.creationTime)} автор: ${post.author}
             </div>
-            <div>${post.content.substring(0, 200)}...</div>
+            <div>${post.content.substring(0, 200)}</div>
 
         `;
         postsContainer.appendChild(postElement);
